@@ -1,0 +1,68 @@
+
+#wrap {
+  /* margin: 50px 100px; */
+  display: inline-block;
+  height: 60px;
+  padding: 0;
+}
+
+input[type="text"] {
+  height: 30px;
+  font-size: 18px;
+  display: inline-block;
+  font-family: "Lato";
+  font-weight: 100;
+  border: none;
+  outline: none;
+  color: #555;
+  padding: 3px;
+  padding-left: 13px;
+  padding-right: 35px;
+  width: 0px;
+  max-width: 60%;
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  background: rgba(85, 85, 85, 0);
+  border-radius: 24px;
+  z-index: 3;
+  background-color: rgba(85, 85, 85, 0);
+  -webkit-transition: background-color .2s linear;
+  -moz-transition: background-color .2s linear;
+  -o-transition: background-color .2s linear;
+  -ms-transition: background-color .2s linear;
+  transition: background-color .2s linear;
+  cursor: pointer;
+}
+
+input[type="text"]:focus:hover {
+  border-bottom: 1px solid rgba(126, 126, 126, 0);
+  background-color: #fff;
+  transition: width .8s cubic-bezier(0.795, 0.795, 1.000, 1.000);
+  
+}
+
+input[type="text"]:focus {
+  width: 700px;
+  z-index: 1;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(250, 248, 248, 0);
+  cursor: text;
+}
+label[type="submit"] {
+  display: inline-block;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  cursor: pointer;
+  opacity: 0.8;
+  cursor: pointer;
+  transition: background-color .8s;
+  height: 55px
+}
+
+label[type="submit"]:hover {
+  opacity: 0.8;
+}
