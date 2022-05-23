@@ -23,7 +23,7 @@
     "@material-ui/utils": "^3.0.0-alpha.1",
     "classnames": "^2.2.6",
     "debounce": "^1.2.0",
-    "dexie": "^2.0.4",
+    "dexie": "^3.2.2",
     "firebase": "^5.7.0",
     "normalize-scroll-left": "^0.1.2",
     "prop-types": "^15.6.2",
